@@ -1,0 +1,85 @@
+body{
+  background-color: #ffffff;
+  background-size: cover;
+}
+h1{
+   font-family: 'Lobster', cursive;
+   margin-top: 1px;
+   padding: 10px 50px 0px 50px;
+ }
+ p {
+   font-family: 'Prata', serif;
+   color: #000000
+ }
+ img {
+   padding-bottom: 1px;
+   padding: auto auto;
+ }
+ .position {
+   padding-top: 100px;
+ }
+ .pictures {
+   padding: 120px 25px 50px 25px;
+ }
+ nav ul li:hover {
+   background-color: #2032d3;
+   padding-bottom: 8px;
+   border-radius: 10px;
+ }
+ nav .active{
+   background-color: blueviolet;
+   border-radius: 10px;
+   padding: 20px 15px 20px 15px;
+ }
+ nav {
+   width: 200%;
+   height: 60px;
+   background-color: #f33838;
+   padding-bottom: 45px;
+   position: fixed;
+   top: 0px;
+ }
+ nav ul {
+   float: left;
+   padding-bottom: 10px;
+ }
+ nav ul li{
+   float:left;
+   list-style: none;
+   position: relative; 
+ } 
+ nav ul li a {
+   display: block;
+   font-family: 'Concert One', cursive;
+   color: #222;
+   font-size: 20px;
+   padding: 22px 14px;
+   text-decoration: none;
+   padding-bottom: 10px;
+ }
+ nav ul li ul {
+   display: none;
+   position: absolute;
+   background-color: #fff562;
+   padding: 10px;
+   border-radius: 10px;
+ }
+ nav ul li:hover ul {
+   display: block;
+ }
+ nav ul li ul li a {
+   width: 180px;
+   border-radius: 10px;
+ }
+ nav ul li ul li a {
+   padding: 8px 14px;
+ }
+ nav ul li ul li a:hover {
+   background-color: #2032d3;
+ }
+ p b {
+   color: #810d4d;
+   font-size: large;
+   text-transform: bold;
+ }
+ 
